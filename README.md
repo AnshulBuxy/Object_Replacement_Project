@@ -1,6 +1,6 @@
 # Image Generation and Background Replacement Using Stable Diffusion
 
-This repository showcases advanced image generation and editing techniques using state-of-the-art models like **Stable Diffusion 3.5**, **Kandinsky**, and **FLUX-1**. The project implements segmentation, object replacement, and inpainting techniques with practical pipelines for customization and enhancement.
+This repository showcases advanced image generation and editing techniques using state-of-the-art models like **Stable Diffusion 3.5** and **Kandinsky**. The project implements segmentation, object replacement, and inpainting techniques with practical pipelines for customization and enhancement.
 
 ---
 
@@ -38,7 +38,6 @@ This project demonstrates the following functionalities:
 
 - **Stable Diffusion 3.5 (Medium)**
 - **Kandinsky 2.2**
-- **FLUX-1**
 - **CLIP** for object selection.
 - **Hugging Face Diffusers** library.
 - **Torch** for quantization and model loading.
@@ -53,3 +52,7 @@ This project demonstrates the following functionalities:
    ```bash
    git clone https://github.com/yourusername/image-generation-and-replacement.git
    cd image-generation-and-replacement
+   pip install -r requirements.txt
+## Run the Notebook
+- Launch the Colab notebook to test the image generation, segmentation, and inpainting functionalities.
+- For visual examples of model performance and outputs, refer to the Jupyter Notebook included in this repository.
